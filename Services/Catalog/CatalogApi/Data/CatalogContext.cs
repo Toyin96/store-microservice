@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CatalogApi.Data
 {
-    public class CatalogContext : ICatalogInterface 
+    public class CatalogContext : ICatalogContext 
     {
         public CatalogContext(IConfiguration configuration)
         {
